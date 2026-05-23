@@ -17,21 +17,22 @@ O aplicativo permite que usuários:
 Este projeto foi desenvolvido como atividade prática da disciplina de Mobile Application Development - ADS (FIAP), com o objetivo de aplicar conceitos fundamentais do React Native e Expo na construção de um aplicativo funcional.
 
 O projeto atende aos seguintes requisitos propostos:
-**Navegação entre telas**
+
+### Navegação entre telas
 - Implementação de navegação utilizando **Expo Router**.
 - Estrutura com múltiplas rotas navegáveis, organizadas em fluxo lógico de uso.
 
-**Protótipo visual funcional**
+### Protótipo visual funcional
 - Interface completa com telas estruturadas de forma coerente.
 - Layout funcional simulando a experiência real de uso do aplicativo.
 - Utilização de dados mockados para demonstração das funcionalidades.
 
-**Formulário com manipulação de estado**
+### Formulário com manipulação de estado
 - Controle de campos com **useState**.
 - Atualização dinâmica dos dados conforme interação do usuário.
 - Manipulação de entrada de dados em formulários de cadastro/login.
 
-**Armazenamento local com AsyncStorage**
+### Armazenamento local com AsyncStorage
 - Persistência local de informações do usuário.
 - Recuperação automática dos dados após reinicialização do aplicativo.
 - Simulação de manutenção de sessão/autenticação local.
@@ -41,19 +42,19 @@ O desenvolvimento deste projeto permitiu praticar conceitos como componentizaç�
 ## 👩‍💻 Equipe
 Carolina Nascimento Gonçalves
 - RM: 564786
-- 1TDSPJ
+- 2TDSPJ
 - [Github](https://github.com/carolnascgoncalves) 
 - [Linkedin](http://linkedin.com/in/carolina-nascimento-906274364)
 
 Emanuelly Ventura do Nascimento
 - RM: 562339
-- 1TDSPJ
+- 2TDSPJ
 - [Github](https://github.com/Emanuelly0ventura) 
 - [Linkedin](https://www.linkedin.com/in/emanuelly-ventura-966135355) 
 
 Julia Sayuri Kina
 - RM: 564555
-- 1TDSPJ
+- 2TDSPJ
 - [Github](https://github.com/juliakina) 
 - [Linkedin](https://www.linkedin.com/in/julia-kina) 
 
@@ -94,7 +95,7 @@ O projeto utiliza AsyncStorage para:
 
 ## 🔗 Demonstração
 Confira a demonstração completa do aplicativo no YouTube:
-➡️**[Assista ao vídeo aqui](https://youtu.be/1PPfa7IKF1M)**
+➡️[Clique aqui para assistir!](https://youtu.be/1PPfa7IKF1M)
 > Neste vídeo é possível visualizar o fluxo completo da aplicação, incluindo cadastro, login, persistência de sessão e navegação entre telas.
 
 ## 📬 Contato
