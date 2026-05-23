@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { router } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
@@ -47,7 +48,7 @@ export default function Login() {
     }
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <View style={styles.conteudo}>
                 <Image source={require("../assets/logo.jpeg")} style={styles.logo}/>
                 <Text style={styles.titulo}>Acesse sua Conta</Text>
@@ -75,7 +76,7 @@ export default function Login() {
                 <TouchableOpacity style={styles.btn} onPress={entrar}><Text style={styles.textoBtn}>Entrar</Text></TouchableOpacity>
             </View>
             <Footer/>
-        </View>
+        </SafeAreaView>
     );
 }
 
