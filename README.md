@@ -81,12 +81,6 @@ Gerenciamento de rotas utilizando Expo Router.
 ### Listagem de pets
 Visualização de dados dos pets cadastrados.
 
-## 💾 Armazenamento local
-O projeto utiliza AsyncStorage para:
-- Salvar dados do usuário.
-- Recuperar sessão ativa.
-- Armazenar informações localmente.
-
 ## 🛠 Dependências principais
 - npx expo install expo-router
 - npx expo install @react-native-async-storage/async-storage
@@ -94,7 +88,7 @@ O projeto utiliza AsyncStorage para:
 - npx expo install @expo/vector-icons
 
 ## 🔗 Demonstração
-Confira a demonstração completa do aplicativo no YouTube:
+Confira a demonstração completa do aplicativo no YouTube!  
 ➡️[Clique aqui para assistir!](https://youtu.be/1PPfa7IKF1M)
 > Neste vídeo é possível visualizar o fluxo completo da aplicação, incluindo cadastro, login, persistência de sessão e navegação entre telas.
 
