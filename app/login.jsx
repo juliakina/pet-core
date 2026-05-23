@@ -69,7 +69,7 @@ export default function Login() {
                 <TextInput placeholder="Digite sua senha" style={styles.input} secureTextEntry value={senha} onChangeText={(value) => setSenha(value)}/>
 
                 <View style={styles.linhaCadastro}>
-                    <Text>Não tem conta?</Text>
+                    <Text>Não tem conta? </Text>
                     <TouchableOpacity onPress={() => router.push("/cadastro")}><Text style={styles.link}>Cadastre-se!</Text></TouchableOpacity>
                 </View>
 

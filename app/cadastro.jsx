@@ -220,7 +220,7 @@ export default function Cadastro() {
                 <TouchableOpacity style={styles.btn} onPress={cadastrar}><Text style={styles.textoBtn}>Cadastrar</Text></TouchableOpacity>
 
                 <View style={styles.areaLogin}>
-                    <Text style={styles.textoLogin}>Já tem cadastro?</Text>
+                    <Text style={styles.textoLogin}>Já tem cadastro? </Text>
                     <TouchableOpacity onPress={() => router.replace("/login")}>
                     <Text style={styles.linkLogin}>Faça seu login!</Text>
                     </TouchableOpacity>
