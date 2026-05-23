@@ -141,3 +141,24 @@ export const examesDisponiveis = [
     "Função renal",
     "Função hepática",
 ];
+
+export const protocolos = [
+    {
+        id: "PROTO1",
+        titulo: "Preventivo contra picadas",
+        texto:
+        "Pulgas, carrapatos e mosquitos podem transmitir doenças importantes aos pets. A prevenção pode ser feita com produtos tópicos, comprimidos ou coleiras específicas. Alguns produtos têm aplicação mensal, enquanto outros podem proteger por até três meses, conforme orientação do médico veterinário.",
+    },
+    {
+        id: "PROTO2",
+        titulo: "Vermifugação",
+        texto:
+        "A vermifugação ajuda a prevenir parasitas intestinais que podem causar perda de peso, diarreia, anemia e outros problemas. A frequência varia conforme idade, ambiente, hábitos do pet e risco de exposição.",
+    },
+    {
+        id: "PROTO3",
+        titulo: "FIV e FeLV",
+        texto:
+        "FIV e FeLV são doenças virais que acometem gatos. A testagem é importante, especialmente em felinos resgatados, com acesso à rua ou que convivem com outros gatos.",
+    },
+];
