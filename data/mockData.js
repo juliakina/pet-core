@@ -88,3 +88,56 @@ export const mockPets = [
         comedouroStatus: "cheio",
     },
 ];
+
+export const especializacoes = [
+    "Clínica geral",
+    "Dermatologia",
+    "Cardiologia",
+    "Ortopedia",
+    "Oncologia",
+    "Oftalmologia",
+    "Endocrinologia",
+];
+
+export const clinicas = [
+    {
+        nome: "PetCore Clínica Veterinária",
+        cnpj: "00.000.000/0001-00",
+        cep: "01000-000",
+        complemento: "Sala 10",
+    },
+    {
+        nome: "Clínica Vida Animal",
+        cnpj: "11.111.111/0001-11",
+        cep: "02000-000",
+        complemento: "Unidade Centro",
+    },
+    {
+        nome: "Hospital Veterinário São Francisco",
+        cnpj: "22.222.222/0001-22",
+        cep: "03000-000",
+        complemento: "Prédio principal",
+    },
+    {
+        nome: "Vet Mais Saúde",
+        cnpj: "33.333.333/0001-33",
+        cep: "04000-000",
+        complemento: "Loja 2",
+    },
+    {
+        nome: "Centro Veterinário PetCare",
+        cnpj: "44.444.444/0001-44",
+        cep: "05000-000",
+        complemento: "Térreo",
+    },
+];
+
+export const examesDisponiveis = [
+    "Hemograma completo",
+    "Exame de urina",
+    "Exame de fezes",
+    "Raio-X",
+    "Ultrassom abdominal",
+    "Função renal",
+    "Função hepática",
+];
